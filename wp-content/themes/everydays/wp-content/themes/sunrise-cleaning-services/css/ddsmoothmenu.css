@@ -1,0 +1,106 @@
+.ddsmoothmenu{
+	margin:0px;
+	padding:0px 0px 0px 0px;
+	list-style:none;
+}
+
+.ddsmoothmenu ul{
+z-index:9999;
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+/*Top level list items*/
+.ddsmoothmenu ul li{
+position: relative;
+display: inline;
+margin:0px 0px 0px 0px;
+padding:0px 0px 0px 0px;
+float:right;
+}
+
+/*Top level menu link items style*/
+.ddsmoothmenu ul li a{
+	margin:0px 0px 0px 0px;
+	display:block;
+	text-transform:uppercase;
+	font-size:15px;
+	padding:5px 16px 5px 10px !important; 
+    padding-top: 10px;
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.ddsmoothmenu ul li a.selected1 { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+background-color:#0376a6;
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.ddsmoothmenu ul li a:hover{
+background-color:#0376a6;
+	text-decoration:none;
+	color:#ffffff;
+}
+	
+/* sub menus */
+.ddsmoothmenu ul li ul{
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	width: 250px; /*width of sub menus*/
+position: absolute;
+display: none; /*collapse all sub menus to begin with*/
+visibility: hidden;
+border:1px solid #008cc6;
+}
+
+/*Sub level menu list items (alters style from Top level List Items)*/
+.ddsmoothmenu ul li ul li{
+padding:0px 0px 0px 0px;
+margin:0px 0px 0px 0px;
+display: list-item;
+float: none;
+background-color:#1999ce;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.ddsmoothmenu ul li ul li ul{
+padding:0px 0px 0px 0px;
+margin:0px 0px 0px 2px;
+top: -1px !important;
+
+}
+
+/* Sub level menu links style */
+.ddsmoothmenu ul li ul li a{
+font: normal 13px 'Open Sans',sans-serif;
+padding: 5px 5px 5px 10px;
+margin: 0;
+border-bottom: 1px solid #008cc6;
+}
+.ddsmoothmenu ul li ul li a:hover{
+background-color:#0376a6;
+	text-decoration:none;
+	color:#ffffff;
+}
+.downarrowclass{
+position: absolute;
+top: 12px;
+right: 7px;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 5px;
+}
+
+.ddshadow{ 
+position: absolute;
+left: 0 !important;
+top: 0 !important;
+width: 0 !important;
+height: 0 !important;
+
+}

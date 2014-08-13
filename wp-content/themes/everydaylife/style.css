@@ -1,0 +1,66 @@
+/*
+Theme Name: Everydaysmissyou
+Theme URI: http://wordpress.org/themes/twentytwelve
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: The 2012 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background.
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, gray, white, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: Everydaysmissyou
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,800);
+@import url(http://fonts.googleapis.com/css?family=Orbitron:400,500,900,700);
+
+/* global */
+h2, h3, h4, h5, h6 { font-family:'Open Sans', sans-serif; }
+h2 { font-weight:300; letter-spacing:-1px; }
+a { color:#8dbf41; }
+a:hover { text-decoration:none; color:#699b1d; }
+
+/* container */
+.container.full-width { width:100%; max-width:100%; }
+.container { max-width:980px; }
+
+/* header */
+header { margin-bottom:10px; }
+
+/* main nav */
+#main-nav { margin-top:30px; padding-left:0; padding-right:0; }
+#main-nav a {}
+#main-nav li.active a { background-color:#8dbf41; color:#fff; }
+
+/* slider */
+.slider { margin-bottom:35px; margin-top:1px; }
+
+/* home */
+.home-quote { padding:15px 0 20px; }
+.home-box { text-align:center; margin-bottom:35px; }
+.home-box h2, .home-box h4  { text-transform:uppercase; }
+.home-box h4  { color:#8dbf41; }
+.home-box p  { color:#999; }
+
+/* news */
+.news-date { padding:8px; text-align:center; text-transform:uppercase; }
+.news-date .date-num { color:#fff; font-size:2em; }
+
+/* footer */
+footer { padding-top:35px; padding-bottom:25px; margin-top:35px; border-top:1px solid #ccc; }
+
+/* class */
+.btn { font-weight:300; border-radius:0; }
+.bg-light-grey { background-color:#f2f3f6; }
+.bg-dark-grey { background-color:#e6e8ed !important; }
+.btn-dark-grey { background-color:#7e8aa2; color:#fff; }
+.btn-dark-grey:hover { background-color:#96a1b7; color:#fff; }
+.text-uppercase { text-transform:uppercase; }
+.arrow-right li, .arrow-right a { padding-left:35px; background:url(images/arrow-right.png) 20px 15px no-repeat; }
+.h-lg { font-size:2.8em; }
+.text-success { color:#8dbf41; }
+.bg-success { background-color:#8dbf41; }
